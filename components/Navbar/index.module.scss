@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    background-color: #000000;
+    line-height: 70px;
+  
+    padding-left: 20px;
+    
+
+    &__title{
+        font-size: 40px;
+        font-weight: 800;
+        padding: 5px;
+        vertical-align: middle;
+        color: white;
+
+        
+    }
+
+    &__link{
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 5px;
+        padding-left: 20px;
+        vertical-align: middle;
+        transition: 0.3s;
+    }
+    &__link:hover{
+        color: rgb(24, 154, 183);
+
+    }
+}

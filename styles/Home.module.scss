@@ -1,0 +1,40 @@
+.main {
+  
+  &__hero{
+    position: relative;
+    text-align: center;
+    color: white; 
+  }
+  &__title{
+    font-size: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  &__grid{
+    margin: 40px;
+    width: 330px;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    padding: 40px;
+    border-radius: 30px;
+    border: 1px solid rgb(100, 100, 100);
+    transition: 0.3s;
+  }
+  &__grid:hover{
+    background-color:rgba(7, 91, 104, 0.252);
+    border: 3px solid rgb(7, 91, 104);
+  }
+  &__titBtn{
+    font-size: 15px;
+   
+  }
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
